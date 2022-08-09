@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    font-size: 70%;
+}
+
+body{
+    background-color: rgb(254, 251, 254);
+}
+
+.container{
+    overflow: hidden;
+}
+
+section[aria-label="navbar"]{
+    height: 8rem;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    gap: 20rem;
+}
+
+.logo{
+    margin-top: 3rem;
+    margin-left: 13rem;
+}
+
+.logo-img{
+    width: 115px;
+}
+
+.nav-items ul{
+    display: flex;
+    gap: 5rem;
+    list-style-type: none;
+    margin-top: 3.5rem;
+    
+}
+
+.nav-item{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(85, 84, 84);
+    font-weight: 600;
+}
+
+.nav-item:hover{
+    color: black;
+    transition: .3s ease;
+}
+
+.Reg-butt{
+    position: relative;
+    bottom: 9px;
+    margin-left: 1rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #0681ef;
+    border: 3px solid #3BB0FF;
+    cursor: pointer;
+}
+
+.banner_1{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    gap: 30rem;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headline{
+    margin-top: 12rem;
+    margin-left: 13rem;
+    margin-bottom: 10rem;
+}
+
+.h1b1{
+    width: 65rem;
+    font-size: 6rem;
+    font-family: "Archivo", "Poppins";
+    line-height: 7rem;
+    color: #042541;
+}
+
+.content{
+    margin-left: 13rem;
+    position: relative;
+    bottom: 7rem;
+}
+
+.p1b1{
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.choose-button{
+    position: relative;
+    bottom: 3rem;
+    margin-left: 13rem;
+}
+
+.but{
+    font-size: 18px;
+    padding: 1.5rem 2.5rem;
+    background: linear-gradient(to bottom, #54b8fb, #0681ef);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #54b8fb;
+}
+
+.right1{
+    position: relative;
+    top: 10rem;
+    right: 29rem;
+}
+
+.first{
+    width: 600px;
+}
+
+.banner_2{
+    display: flex;
+    gap: 60rem;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left2{
+    position: relative;
+    top: 14rem;
+    left: 13rem;
+}
+
+.second{
+    width: 600px;
+}
+
+.right2{
+    position: relative;
+    top: 14rem;
+    right: 40rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+}
+
+.h1b2{
+    width: 65rem;
+    font-size: 4.7rem;
+    font-family: "Archivo", "Poppins";
+    line-height: 7rem;
+    color: #042541;
+}
+.content2{
+    position: relative;
+    bottom: 3rem;
+}
+
+.p1b2{
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: .6px;
+    line-height: 28px;
+}
+
+.read-more-btn{
+    position: relative;
+    bottom: 8rem;
+}
+
+.read-but{
+    width: 18rem;
+    font-size: 18px;
+    padding: 1.5rem 2.5rem;
+    background: linear-gradient(to bottom, #54b8fb, #0681ef);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #54b8fb;
+}
+
+.banner_3{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    gap: 40rem;
+}
+
+.left3{
+    position: relative;
+    top: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.headline3{
+    margin-left: 13rem;
+}
+
+.h1b3{
+    width: 65rem;
+    font-size: 5rem;
+    font-family: "Archivo", "Poppins";
+    line-height: 7rem;
+    color: #042541;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    margin-left: 13rem;
+    position: relative;
+}
+
+.p1b3{
+    font-size: 16px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+
+.read-more-btn2{
+    width: 18rem;
+    font-size: 18px;
+    padding: 1.5rem 2.5rem;
+    background: linear-gradient(to bottom, #54b8fb, #0681ef);
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #54b8fb;
+}
+
+.right3{
+    position: relative;
+    right: 45rem;
+    bottom: 6rem;
+}
+
+.banner_4{
+    height: 100vh;
+    width: 100vw;
+}
+
+.tag{
+    display: flex;
+    gap: 5rem;
+}
+
+.left_tag{
+    position: relative;
+    bottom: 9rem;
+    margin-left: 13rem;
+    width: 50vw;
+}
+
+.left_tag h1{
+    font-size: 5rem;
+    font-family: "Archivo", "Poppins";
+    line-height: 6rem;
+    color: #042541;
+}
+
+.right_tag{
+    position: relative;
+    bottom: 6rem;
+    right: 10rem;
+    width: 50vw;
+}
+
+.right_tag p{
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.services{
+    position: relative;
+    bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 7fr));
+    grid-gap: 4rem;
+}
+
+.grid > div{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr)
+}
+
+.grid > div > img{
+    position: relative;
+    bottom: 1.5rem;
+    width: 5rem;
+}
+
+.grid div h4{
+    position: relative;
+    bottom: 1rem;
+    font-size: 2.3rem;
+    color: #042541;
+}
+
+.grid div h4, .grid div p{
+    margin-top: 1rem;
+}
+
+.grid div p{
+    font-size: 1.3rem;
+    color: gray;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.banner_5{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-270deg, #5cb8f5, #0681ef);
+}
+
+.pricing{
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing_head{
+    color: #fff;
+    font-size: 5rem;
+    font-family: "Archivo", "Poppins", sans-serif;
+}
+
+.pricing_cards{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 10rem;
+}
+
+.card{
+    position: relative;
+    bottom: 10rem;
+    height: 50rem;
+    width: 30rem;
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 2rem;
+}
+
+.card-head h3{
+    position: relative;
+    bottom: 2rem;
+    right: 2rem;
+    width: 25rem;
+    font-size: 2.5rem;
+    font-family: "Archivo";
+    color: #042541;
+}
+
+.card-head p{
+    width: 25rem;
+    position: relative;
+    right: 2rem;
+    bottom: 1rem;
+    color: gray;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .3px;
+}
+.card-list{
+    position: relative;
+    top: 3rem;
+}
+
+.card-list li{
+    width: 25rem;
+    list-style-type: none;
+    font-size: 14px;
+    color: #042541;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.card-list img{
+    position: relative;
+    top: 7px;
+}
+
+.price_info{
+    position: relative;
+    top: 5rem;
+}
+
+.card-btn{
+    position: relative;
+    top: 7rem;
+}
+
+.price_info h3{
+    font-size: 2.5rem;
+    color: #042541;
+}
+
+.price_info span{
+    color: gray;
+}
+
+.price_info p{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card-btn{
+    height: 10rem;
+    width: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn button{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: #0681ef;
+    border: 3px solid #3BB0FF;
+    cursor: pointer;
+}
+
+.card-btn-blue{
+    position: relative;
+    top: 9rem;
+    left: 3rem;
+}
+
+.card-btn-blue button{
+    font-size: 18px;
+    padding: 1.5rem 2.5rem;
+    background: linear-gradient(to bottom, #54b8fb, #0681ef);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 5px #54b8fb;
+    border: none;
+}
+
+.banner_6{
+    height: 170vh;
+    width: 100vw;
+}
+
+.cust-head{
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Our-customer{
+    position: relative;
+    bottom: 3rem;
+    font-size: 4.5rem;
+    color: #042541;
+    font-family: "Archivo";
+}
+
+.cust-head p{
+    width: 75rem;
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.grid-customer{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(2, 2fr);
+    grid-gap: 4rem;
+    padding: 0rem 4rem; 
+}
+
+.box{
+    box-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2rem;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+
+
+.grid-customer p{
+    color: #0f273b;
+    font-size: 14px;
+    padding: 4rem;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.customer_info{
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    left: 20rem;
+    bottom: 2rem;
+}
+
+.customer_info h3{
+    font-size: 20px;
+    color: #042541;
+}
+
+.banner_7{
+    width: 100vw;
+}
+
+.quit-worry{
+    height: 50vh;
+    position: relative;
+    bottom: 20rem;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(-45deg, #3c95d1 0%, #0681ef 20%, #47b0f6 50%, #1c80d7 80%, #1b9df3 100%);
+}
+
+.b7left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.worry{
+    font-size: 5rem;
+    color: #fff;
+    font-family: "Archivo";
+    line-height: 80px;
+}
+
+.b7content{
+    position: relative;
+    bottom: 5rem;
+    width: 43vw;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+
+.b7right{
+    display: flex;
+    align-items: center;
+}
+
+.reg{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    font-size: 1.7rem;
+    font-weight: 300;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    gap: 20rem;
+}
+
+.logo-footer{
+    position: relative;
+    bottom: 10rem;
+    margin-left: 8rem;
+}
+
+.logo-footer img{
+    width: 120px;
+}
+
+.logo-footer p{
+    color: gray;
+    width: 30rem;
+    position: relative;
+    top: 4rem;
+    line-height: 29px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer-links{
+    width: 60vw;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 7rem;
+    right: 10rem;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.menu h4{
+    font-size: 25px;
+    color: #042541;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: gray;
+    font-weight: 600;
+}
+
+.media-icons{
+    display: flex;
+    gap: 1rem;
+}
+
+.media-icons img{
+    width: 3rem;
+    cursor: pointer;
+}
