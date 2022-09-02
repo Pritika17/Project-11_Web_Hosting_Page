@@ -1,10 +1,15 @@
 # Project 11 Web Hosting Page
 
+> Mobile Responsive
+
 <br>
 <br>
 <br>
 
 ![Project 11](/project11.png)
+<br>
+<br>
+<img src="https://github.com/Pritika17/Project-11_Web_Hosting_Page/blob/main/p11_responsive.gif" />
 
 <br>
 <br>
@@ -12,7 +17,7 @@
 
 # Deployed link
 
-[Project 11](https://web-hosting-page.netlify.app/ "project link")
+[Project 11](https://web-hosting-page-project11.netlify.app/ "project link")
 <br>
 <br>
 <br>
